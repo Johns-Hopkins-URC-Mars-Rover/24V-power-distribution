@@ -1,0 +1,133 @@
+(footprint "SVSQ392050R003FTDG"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3ced29c8-c100-4b5c-9c17-03c3901cd17b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SVSQ392050R003FTDG"
+		(at 0 -6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ce1e0a3e-7dc0-4ace-a77e-b112753956f2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a2b7310b-ead1-4722-9ab8-875f04f1c85f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cfeb0e8c-9852-40cc-b105-162345af470d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 1 -2.7)
+		(end -1 -2.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fef7779c-5104-43d1-83c0-167f01f0d459")
+	)
+	(fp_line
+		(start 1 2.7)
+		(end -1 2.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c79787f5-638c-4fc4-8631-ab69377859aa")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -4.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7bae92c7-0501-4a90-a11e-b0c2003da952")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.8 0)
+		(size 2.7 6.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "dfef8530-0b2d-43d6-b2c0-d52d4f508f1a")
+	)
+	(pad "2" smd rect
+		(at 2.8 0 180)
+		(size 2.7 6.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "777060ef-7403-4069-ab2d-7228022b24e7")
+	)
+	(zone
+		(layer "F.SilkS")
+		(uuid "953135ac-93ab-4633-b487-2b03deff0a8d")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy -4.5 -3.5) (xy 4.5 -3.5) (xy 4.5 3.5) (xy -4.5 3.5)
+			)
+		)
+	)
+	(embedded_fonts no)
+)

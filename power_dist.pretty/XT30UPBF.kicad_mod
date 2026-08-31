@@ -1,0 +1,256 @@
+(footprint "XT30UPBF"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "  XT30UPB-F-3")
+	(tags "Connector")
+	(property "Reference" "J**"
+		(at 0 -2.5 0)
+		(layer "F.SilkS")
+		(uuid "09bcff4f-3d7c-4eba-8dd0-5eda04e526de")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "XT30UPBF"
+		(at 0 -2.5 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c58d0d31-454f-4954-8403-fd86798548b3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8ce8ba87-282e-4da7-bcc1-38c4eb87293b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "19871e70-aa45-4469-aae4-7d2dbe7a0f66")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.6 -7.6)
+		(end 2.6 -7.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6682f092-b0c8-4a56-ba89-7c085bc9c162")
+	)
+	(fp_line
+		(start -2.6 2.6)
+		(end -2.6 -7.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aa209729-91fc-4f76-87c6-4caeae038c36")
+	)
+	(fp_line
+		(start 2.6 -7.6)
+		(end 2.6 2.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ad38a604-246e-4e1e-bf3e-66e0479b81be")
+	)
+	(fp_line
+		(start 2.6 2.6)
+		(end -2.6 2.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b8c5a7bc-8c26-4789-8c99-739bae77842c")
+	)
+	(fp_line
+		(start 3.1 0)
+		(end 3.1 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "362b9450-5044-4d2c-8fa0-7d9cd003f133")
+	)
+	(fp_line
+		(start 3.2 0)
+		(end 3.2 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c4ddb879-0a17-41c1-981c-d2834d77af7c")
+	)
+	(fp_arc
+		(start 3.1 0)
+		(mid 3.15 -0.05)
+		(end 3.2 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c912e59a-a8c8-422b-9403-f3a539272806")
+	)
+	(fp_arc
+		(start 3.2 0)
+		(mid 3.15 0.05)
+		(end 3.1 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1d237220-92bc-4c72-a3a3-f2926de16f77")
+	)
+	(fp_line
+		(start -3.6 -8.6)
+		(end 3.6 -8.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4c4578a3-5291-4d63-ae20-5d2ee5aa6006")
+	)
+	(fp_line
+		(start -3.6 3.6)
+		(end -3.6 -8.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c0cf45ca-ae9f-4cad-9f8f-6164b7634826")
+	)
+	(fp_line
+		(start 3.6 -8.6)
+		(end 3.6 3.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4b48d4b9-0d9a-491b-80c5-9a16cf434392")
+	)
+	(fp_line
+		(start 3.6 3.6)
+		(end -3.6 3.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4629e020-c8e3-47a3-8d81-33951b2c8017")
+	)
+	(fp_line
+		(start -2.6 -7.6)
+		(end 2.6 -7.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e8910753-b4bc-47f5-95d5-ad9f30157ba8")
+	)
+	(fp_line
+		(start -2.6 2.6)
+		(end -2.6 -7.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a5270d32-3dde-4284-a6f5-2065a8ab35e8")
+	)
+	(fp_line
+		(start 2.6 -7.6)
+		(end 2.6 2.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bf7c2efe-cc58-403a-b7e7-a87ab78649d0")
+	)
+	(fp_line
+		(start 2.6 2.6)
+		(end -2.6 2.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dea4f9d3-c136-46ea-8f09-d66b53aa9b7b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -2.5 0)
+		(layer "F.Fab")
+		(uuid "b4c34d0c-f510-4824-8ee6-b1725fa109a9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 2.7 2.7)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "36bb4cb5-26cf-47ce-9472-78986997cb69")
+	)
+	(pad "2" thru_hole circle
+		(at 0 -5)
+		(size 2.7 2.7)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "df89bfd3-f6c5-4d98-90a7-2b37588ce405")
+	)
+	(embedded_fonts no)
+	(model "XT30UPB-F.stp"
+		(offset
+			(xyz 0 2.499999962 3.410000035)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+)
