@@ -1000,7 +1000,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f12e7de-e1fb-46db-89ff-3b2e31c8ed02")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR056"
 			(at 147.32 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -1059,6 +1059,12 @@
 			(uuid "a260ec20-e99f-49f5-965d-b9cb6ab7de9d")
 		)
 		(instances
+			(project "24v_power_dist"
+				(path "/351ec213-5341-4e8b-9f3a-42e224a8f757/9017cb77-fded-48bc-bce9-ed8cf450d7a7"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
 			(project "buck_boost_breakout"
 				(path "/e407faa9-50a3-4231-95da-82dc2233dbf2/9017cb77-fded-48bc-bce9-ed8cf450d7a7"
 					(reference "#PWR046")
@@ -1079,7 +1085,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e25d6ee-a8b6-49e0-a745-2f8c0f50efc0")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR057"
 			(at 154.94 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -1137,6 +1143,12 @@
 			(uuid "8a35c21a-ac20-46ea-99af-9f755203a805")
 		)
 		(instances
+			(project "24v_power_dist"
+				(path "/351ec213-5341-4e8b-9f3a-42e224a8f757/9017cb77-fded-48bc-bce9-ed8cf450d7a7"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
 			(project "buck_boost_breakout"
 				(path "/e407faa9-50a3-4231-95da-82dc2233dbf2/9017cb77-fded-48bc-bce9-ed8cf450d7a7"
 					(reference "#PWR044")
@@ -1157,7 +1169,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39f8a660-bdb8-4a8a-b642-6de16d244ecf")
-		(property "Reference" "R57"
+		(property "Reference" "R64"
 			(at 120.65 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1291,6 +1303,12 @@
 			(uuid "bf78291f-abf4-4f6c-ab11-5e6ca1327dee")
 		)
 		(instances
+			(project "24v_power_dist"
+				(path "/351ec213-5341-4e8b-9f3a-42e224a8f757/9017cb77-fded-48bc-bce9-ed8cf450d7a7"
+					(reference "R64")
+					(unit 1)
+				)
+			)
 			(project "buck_boost_breakout"
 				(path "/e407faa9-50a3-4231-95da-82dc2233dbf2/9017cb77-fded-48bc-bce9-ed8cf450d7a7"
 					(reference "R57")
@@ -1311,7 +1329,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3af7ee87-85c3-401b-b6be-0856ebeaf950")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR055"
 			(at 90.17 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -1370,6 +1388,12 @@
 			(uuid "df2bc92b-28b7-4a15-9296-fc74e335870f")
 		)
 		(instances
+			(project "24v_power_dist"
+				(path "/351ec213-5341-4e8b-9f3a-42e224a8f757/9017cb77-fded-48bc-bce9-ed8cf450d7a7"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
 			(project "buck_boost_breakout"
 				(path "/e407faa9-50a3-4231-95da-82dc2233dbf2/9017cb77-fded-48bc-bce9-ed8cf450d7a7"
 					(reference "#PWR045")
@@ -1390,7 +1414,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e235a008-6458-4407-888f-0a084d8a5bfa")
-		(property "Reference" "C5"
+		(property "Reference" "C73"
 			(at 158.75 95.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1412,7 +1436,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 155.9052 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -1452,6 +1476,12 @@
 			(uuid "289af8e0-a204-42d7-90e7-8a5447e53334")
 		)
 		(instances
+			(project "24v_power_dist"
+				(path "/351ec213-5341-4e8b-9f3a-42e224a8f757/9017cb77-fded-48bc-bce9-ed8cf450d7a7"
+					(reference "C73")
+					(unit 1)
+				)
+			)
 			(project "buck_boost_breakout"
 				(path "/e407faa9-50a3-4231-95da-82dc2233dbf2/9017cb77-fded-48bc-bce9-ed8cf450d7a7"
 					(reference "C5")
@@ -1612,6 +1642,12 @@
 			(uuid "a5857b3f-8c62-4ff0-9c64-1dfb9cc4de41")
 		)
 		(instances
+			(project "24v_power_dist"
+				(path "/351ec213-5341-4e8b-9f3a-42e224a8f757/9017cb77-fded-48bc-bce9-ed8cf450d7a7"
+					(reference "IC5")
+					(unit 1)
+				)
+			)
 			(project "buck_boost_breakout"
 				(path "/e407faa9-50a3-4231-95da-82dc2233dbf2/9017cb77-fded-48bc-bce9-ed8cf450d7a7"
 					(reference "IC5")

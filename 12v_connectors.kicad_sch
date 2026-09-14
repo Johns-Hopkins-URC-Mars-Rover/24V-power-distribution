@@ -754,7 +754,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "XT30UPBF"
+		(property "Footprint" "power_dist:XT30UPBF"
 			(at 118.11 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -892,6 +892,12 @@
 			(uuid "c7f1dbdf-3819-4363-b34a-c726798579c6")
 		)
 		(instances
+			(project "24v_power_dist"
+				(path "/351ec213-5341-4e8b-9f3a-42e224a8f757/3b2c23cb-9fa5-4038-939c-e65a02df1393"
+					(reference "J5")
+					(unit 1)
+				)
+			)
 			(project "buck_boost_breakout"
 				(path "/e407faa9-50a3-4231-95da-82dc2233dbf2/3b2c23cb-9fa5-4038-939c-e65a02df1393"
 					(reference "J5")
@@ -934,7 +940,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "XT30UPBF"
+		(property "Footprint" "power_dist:XT30UPBF"
 			(at 90.17 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -1066,12 +1072,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "4280a06a-1c64-4eb1-9ccb-91f888ef21ac")
+			(uuid "4280a06a-1c64-4eb1-9ccb-91f888ef21ad")
 		)
 		(pin "1"
-			(uuid "c7f1dbdf-3819-4363-b34a-c726798579c6")
+			(uuid "c7f1dbdf-3819-4363-b34a-c726798579c7")
 		)
 		(instances
+			(project "24v_power_dist"
+				(path "/351ec213-5341-4e8b-9f3a-42e224a8f757/3b2c23cb-9fa5-4038-939c-e65a02df1393"
+					(reference "J4")
+					(unit 1)
+				)
+			)
 			(project "buck_boost_breakout"
 				(path "/e407faa9-50a3-4231-95da-82dc2233dbf2/3b2c23cb-9fa5-4038-939c-e65a02df1393"
 					(reference "J4")
@@ -1114,7 +1126,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "XT30UPBF"
+		(property "Footprint" "power_dist:XT30UPBF"
 			(at 203.2 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -1246,12 +1258,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "4280a06a-1c64-4eb1-9ccb-91f888ef21ac")
+			(uuid "4280a06a-1c64-4eb1-9ccb-91f888ef21ae")
 		)
 		(pin "1"
-			(uuid "c7f1dbdf-3819-4363-b34a-c726798579c6")
+			(uuid "c7f1dbdf-3819-4363-b34a-c726798579c8")
 		)
 		(instances
+			(project "24v_power_dist"
+				(path "/351ec213-5341-4e8b-9f3a-42e224a8f757/3b2c23cb-9fa5-4038-939c-e65a02df1393"
+					(reference "J8")
+					(unit 1)
+				)
+			)
 			(project "buck_boost_breakout"
 				(path "/e407faa9-50a3-4231-95da-82dc2233dbf2/3b2c23cb-9fa5-4038-939c-e65a02df1393"
 					(reference "J8")
@@ -1294,7 +1312,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "XT30UPBF"
+		(property "Footprint" "power_dist:XT30UPBF"
 			(at 147.32 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -1426,12 +1444,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "4280a06a-1c64-4eb1-9ccb-91f888ef21ac")
+			(uuid "4280a06a-1c64-4eb1-9ccb-91f888ef21af")
 		)
 		(pin "1"
-			(uuid "c7f1dbdf-3819-4363-b34a-c726798579c6")
+			(uuid "c7f1dbdf-3819-4363-b34a-c726798579c9")
 		)
 		(instances
+			(project "24v_power_dist"
+				(path "/351ec213-5341-4e8b-9f3a-42e224a8f757/3b2c23cb-9fa5-4038-939c-e65a02df1393"
+					(reference "J6")
+					(unit 1)
+				)
+			)
 			(project "buck_boost_breakout"
 				(path "/e407faa9-50a3-4231-95da-82dc2233dbf2/3b2c23cb-9fa5-4038-939c-e65a02df1393"
 					(reference "J6")
@@ -1474,7 +1498,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "XT30UPBF"
+		(property "Footprint" "power_dist:XT30UPBF"
 			(at 173.99 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -1606,12 +1630,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "4280a06a-1c64-4eb1-9ccb-91f888ef21ac")
+			(uuid "4280a06a-1c64-4eb1-9ccb-91f888ef21b0")
 		)
 		(pin "1"
-			(uuid "c7f1dbdf-3819-4363-b34a-c726798579c6")
+			(uuid "c7f1dbdf-3819-4363-b34a-c726798579ca")
 		)
 		(instances
+			(project "24v_power_dist"
+				(path "/351ec213-5341-4e8b-9f3a-42e224a8f757/3b2c23cb-9fa5-4038-939c-e65a02df1393"
+					(reference "J7")
+					(unit 1)
+				)
+			)
 			(project "buck_boost_breakout"
 				(path "/e407faa9-50a3-4231-95da-82dc2233dbf2/3b2c23cb-9fa5-4038-939c-e65a02df1393"
 					(reference "J7")
@@ -1654,7 +1684,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "XT30UPBF"
+		(property "Footprint" "power_dist:XT30UPBF"
 			(at 232.41 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -1786,12 +1816,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "4280a06a-1c64-4eb1-9ccb-91f888ef21ac")
+			(uuid "4280a06a-1c64-4eb1-9ccb-91f888ef21b1")
 		)
 		(pin "1"
-			(uuid "c7f1dbdf-3819-4363-b34a-c726798579c6")
+			(uuid "c7f1dbdf-3819-4363-b34a-c726798579cb")
 		)
 		(instances
+			(project "24v_power_dist"
+				(path "/351ec213-5341-4e8b-9f3a-42e224a8f757/3b2c23cb-9fa5-4038-939c-e65a02df1393"
+					(reference "J9")
+					(unit 1)
+				)
+			)
 			(project "buck_boost_breakout"
 				(path "/e407faa9-50a3-4231-95da-82dc2233dbf2/3b2c23cb-9fa5-4038-939c-e65a02df1393"
 					(reference "J9")
@@ -1812,7 +1848,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dbcd4072-1fcd-4105-b403-9782c3760deb")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR059"
 			(at 58.42 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -1870,6 +1906,12 @@
 			(uuid "29552cb2-4389-4bb1-b123-607ed36d5ee3")
 		)
 		(instances
+			(project "24v_power_dist"
+				(path "/351ec213-5341-4e8b-9f3a-42e224a8f757/3b2c23cb-9fa5-4038-939c-e65a02df1393"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
 			(project "buck_boost_breakout"
 				(path "/e407faa9-50a3-4231-95da-82dc2233dbf2/3b2c23cb-9fa5-4038-939c-e65a02df1393"
 					(reference "#PWR061")

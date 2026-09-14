@@ -1552,12 +1552,6 @@
 		(uuid "78da0898-269e-4329-937e-8ed4cce1db39")
 	)
 	(junction
-		(at 99.06 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "87a6d6e9-624e-4fb5-a3a6-600cb5d388c7")
-	)
-	(junction
 		(at 195.58 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1590,6 +1584,16 @@
 			(type default)
 		)
 		(uuid "03f47d60-4b32-45e6-b7f9-9f3cff6ab813")
+	)
+	(wire
+		(pts
+			(xy 99.06 85.09) (xy 99.06 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "090d2517-791c-4893-9a6a-9935892c2bc6")
 	)
 	(wire
 		(pts
@@ -1633,7 +1637,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 119.38) (xy 99.06 123.19)
+			(xy 99.06 110.49) (xy 99.06 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1643,23 +1647,13 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 67.31) (xy 99.06 95.25)
+			(xy 99.06 67.31) (xy 99.06 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3cb17806-191e-4104-8d65-76dd4fbc5375")
-	)
-	(wire
-		(pts
-			(xy 77.47 95.25) (xy 85.09 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d963633-b54b-4e8e-8ae9-b7270fb68a35")
 	)
 	(wire
 		(pts
@@ -1743,16 +1737,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 95.25) (xy 99.06 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c337f5c-eb70-4bd8-9305-3cc9fa998d0a")
-	)
-	(wire
-		(pts
 			(xy 67.31 62.23) (xy 67.31 64.77)
 		)
 		(stroke
@@ -1783,7 +1767,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 107.95) (xy 99.06 111.76)
+			(xy 99.06 97.79) (xy 99.06 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1880,16 +1864,6 @@
 			(type default)
 		)
 		(uuid "8139ee6d-cc5a-4770-9b4a-e7413464ca7d")
-	)
-	(wire
-		(pts
-			(xy 92.71 95.25) (xy 99.06 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b853db4-9876-4039-8fc9-f0b04b6cdde6")
 	)
 	(wire
 		(pts
@@ -2162,17 +2136,6 @@
 		)
 		(uuid "0a55cd33-a8f1-475c-a173-16e4e969645d")
 	)
-	(hierarchical_label "CLK_IN"
-		(shape input)
-		(at 77.47 95.25 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8ead3c45-dc7a-43aa-85df-2e04d7705b26")
-	)
 	(hierarchical_label "BATTP"
 		(shape input)
 		(at 64.77 64.77 180)
@@ -2196,7 +2159,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1148b8f6-7fe9-42b8-b9e6-32dd09cec07f")
-		(property "Reference" "C4"
+		(property "Reference" "C5"
 			(at 217.17 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2218,7 +2181,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 214.3252 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -2258,9 +2221,97 @@
 			(uuid "e6a2f528-b522-4a19-bfb3-2e5998da987e")
 		)
 		(instances
+			(project "24v_power_dist"
+				(path "/351ec213-5341-4e8b-9f3a-42e224a8f757/1b776c30-cef0-4fc2-9cc5-54e4a4bf6d00"
+					(reference "C5")
+					(unit 1)
+				)
+			)
 			(project "buck_boost_breakout"
 				(path "/e407faa9-50a3-4231-95da-82dc2233dbf2/1b776c30-cef0-4fc2-9cc5-54e4a4bf6d00"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 99.06 81.28 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f1db44a-2c86-4bbc-8cc1-649c4df14d05")
+		(property "Reference" "R70"
+			(at 101.6 80.0099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1.5k"
+			(at 101.6 82.5499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 100.838 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 99.06 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "077232d3-26aa-4142-b01a-ef3320cb1926")
+		)
+		(pin "1"
+			(uuid "dcc83fac-0fa3-4529-8ad8-1d03934e3ad2")
+		)
+		(instances
+			(project "24v_power_dist"
+				(path "/351ec213-5341-4e8b-9f3a-42e224a8f757/1b776c30-cef0-4fc2-9cc5-54e4a4bf6d00"
+					(reference "R70")
 					(unit 1)
 				)
 			)
@@ -2414,6 +2465,12 @@
 			(uuid "719ea2fc-a272-4cb9-8d32-e1d8521f4187")
 		)
 		(instances
+			(project "24v_power_dist"
+				(path "/351ec213-5341-4e8b-9f3a-42e224a8f757/1b776c30-cef0-4fc2-9cc5-54e4a4bf6d00"
+					(reference "LED1")
+					(unit 1)
+				)
+			)
 			(project "buck_boost_breakout"
 				(path "/e407faa9-50a3-4231-95da-82dc2233dbf2/1b776c30-cef0-4fc2-9cc5-54e4a4bf6d00"
 					(reference "LED1")
@@ -2434,7 +2491,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d52294a-69ee-4ec6-8e74-53c778cf48b7")
-		(property "Reference" "R38"
+		(property "Reference" "R13"
 			(at 198.12 68.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2445,7 +2502,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "40.2k"
+		(property "Value" "100k"
 			(at 198.12 71.1199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2456,7 +2513,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 197.358 69.85 90)
 			(hide yes)
 			(show_name no)
@@ -2496,6 +2553,12 @@
 			(uuid "8b44b5e8-c373-4574-aca1-4937efb83944")
 		)
 		(instances
+			(project "24v_power_dist"
+				(path "/351ec213-5341-4e8b-9f3a-42e224a8f757/1b776c30-cef0-4fc2-9cc5-54e4a4bf6d00"
+					(reference "R13")
+					(unit 1)
+				)
+			)
 			(project "buck_boost_breakout"
 				(path "/e407faa9-50a3-4231-95da-82dc2233dbf2/1b776c30-cef0-4fc2-9cc5-54e4a4bf6d00"
 					(reference "R38")
@@ -2516,7 +2579,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e3b7917-bc47-48a8-9f18-8a623c292822")
-		(property "Reference" "D4"
+		(property "Reference" "D1"
 			(at 185.7375 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2576,6 +2639,12 @@
 			(uuid "c7910b62-f589-4428-bab1-0d74df4acf5a")
 		)
 		(instances
+			(project "24v_power_dist"
+				(path "/351ec213-5341-4e8b-9f3a-42e224a8f757/1b776c30-cef0-4fc2-9cc5-54e4a4bf6d00"
+					(reference "D1")
+					(unit 1)
+				)
+			)
 			(project "buck_boost_breakout"
 				(path "/e407faa9-50a3-4231-95da-82dc2233dbf2/1b776c30-cef0-4fc2-9cc5-54e4a4bf6d00"
 					(reference "D4")
@@ -2596,7 +2665,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86b25f98-2771-4cb5-8dc9-18accd06bafc")
-		(property "Reference" "R37"
+		(property "Reference" "R12"
 			(at 175.26 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2618,7 +2687,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 174.498 87.63 90)
 			(hide yes)
 			(show_name no)
@@ -2658,6 +2727,12 @@
 			(uuid "d72d7ad4-7b3f-431e-b3cd-7f39ac71385a")
 		)
 		(instances
+			(project "24v_power_dist"
+				(path "/351ec213-5341-4e8b-9f3a-42e224a8f757/1b776c30-cef0-4fc2-9cc5-54e4a4bf6d00"
+					(reference "R12")
+					(unit 1)
+				)
+			)
 			(project "buck_boost_breakout"
 				(path "/e407faa9-50a3-4231-95da-82dc2233dbf2/1b776c30-cef0-4fc2-9cc5-54e4a4bf6d00"
 					(reference "R37")
@@ -2678,7 +2753,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92a1064f-87e4-406e-91da-1e6cd93e0d9d")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR021"
 			(at 204.47 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -2736,6 +2811,12 @@
 			(uuid "33f4bf06-a2bc-4df3-9c66-67c840836a4a")
 		)
 		(instances
+			(project "24v_power_dist"
+				(path "/351ec213-5341-4e8b-9f3a-42e224a8f757/1b776c30-cef0-4fc2-9cc5-54e4a4bf6d00"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
 			(project "buck_boost_breakout"
 				(path "/e407faa9-50a3-4231-95da-82dc2233dbf2/1b776c30-cef0-4fc2-9cc5-54e4a4bf6d00"
 					(reference "#PWR034")
@@ -2756,7 +2837,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a467bd4-f6e6-419b-a28b-8dfa1e768ea7")
-		(property "Reference" "C3"
+		(property "Reference" "C2"
 			(at 77.47 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2778,7 +2859,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 74.6252 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -2818,6 +2899,12 @@
 			(uuid "9f2598eb-30c3-4c9b-a7cb-c3ac9a524230")
 		)
 		(instances
+			(project "24v_power_dist"
+				(path "/351ec213-5341-4e8b-9f3a-42e224a8f757/1b776c30-cef0-4fc2-9cc5-54e4a4bf6d00"
+					(reference "C2")
+					(unit 1)
+				)
+			)
 			(project "buck_boost_breakout"
 				(path "/e407faa9-50a3-4231-95da-82dc2233dbf2/1b776c30-cef0-4fc2-9cc5-54e4a4bf6d00"
 					(reference "C3")
@@ -2828,7 +2915,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 99.06 104.14 180)
+		(at 99.06 93.98 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2838,8 +2925,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4757251-4f26-4aa2-aa78-8ba342a741df")
-		(property "Reference" "R35"
-			(at 101.6 102.8699 0)
+		(property "Reference" "R10"
+			(at 101.6 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2849,8 +2936,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "6.8k"
-			(at 101.6 105.4099 0)
+		(property "Value" "12k"
+			(at 101.6 95.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2860,8 +2947,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 100.838 104.14 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 100.838 93.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2872,7 +2959,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 104.14 0)
+			(at 99.06 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2883,7 +2970,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 99.06 104.14 0)
+			(at 99.06 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2900,6 +2987,12 @@
 			(uuid "7e4ed2a6-cb26-4634-a48e-16fcfebbb07a")
 		)
 		(instances
+			(project "24v_power_dist"
+				(path "/351ec213-5341-4e8b-9f3a-42e224a8f757/1b776c30-cef0-4fc2-9cc5-54e4a4bf6d00"
+					(reference "R10")
+					(unit 1)
+				)
+			)
 			(project "buck_boost_breakout"
 				(path "/e407faa9-50a3-4231-95da-82dc2233dbf2/1b776c30-cef0-4fc2-9cc5-54e4a4bf6d00"
 					(reference "R35")
@@ -2920,7 +3013,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7bd9e79-ffa6-47e4-97f3-0ab51065cce3")
-		(property "Reference" "IC3"
+		(property "Reference" "IC1"
 			(at 127 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3075,6 +3168,12 @@
 			(uuid "5475bfff-6c54-4fdc-a72d-5e83ef531647")
 		)
 		(instances
+			(project "24v_power_dist"
+				(path "/351ec213-5341-4e8b-9f3a-42e224a8f757/1b776c30-cef0-4fc2-9cc5-54e4a4bf6d00"
+					(reference "IC1")
+					(unit 1)
+				)
+			)
 			(project "buck_boost_breakout"
 				(path "/e407faa9-50a3-4231-95da-82dc2233dbf2/1b776c30-cef0-4fc2-9cc5-54e4a4bf6d00"
 					(reference "IC3")
@@ -3085,7 +3184,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 99.06 123.19 0)
+		(at 99.06 114.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3095,8 +3194,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd03c162-36ee-421a-9b4f-c842f5f7a3d5")
-		(property "Reference" "#PWR033"
-			(at 99.06 129.54 0)
+		(property "Reference" "#PWR018"
+			(at 99.06 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3107,7 +3206,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 99.06 128.27 0)
+			(at 99.06 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3117,7 +3216,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 123.19 0)
+			(at 99.06 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3128,7 +3227,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 123.19 0)
+			(at 99.06 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3139,7 +3238,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 123.19 0)
+			(at 99.06 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3153,6 +3252,12 @@
 			(uuid "5f8351d2-94dc-4097-9c65-602c4caef1f3")
 		)
 		(instances
+			(project "24v_power_dist"
+				(path "/351ec213-5341-4e8b-9f3a-42e224a8f757/1b776c30-cef0-4fc2-9cc5-54e4a4bf6d00"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
 			(project "buck_boost_breakout"
 				(path "/e407faa9-50a3-4231-95da-82dc2233dbf2/1b776c30-cef0-4fc2-9cc5-54e4a4bf6d00"
 					(reference "#PWR033")
@@ -3173,7 +3278,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6144eed-bba1-4509-be81-06c89ea457f0")
-		(property "Reference" "R40"
+		(property "Reference" "R8"
 			(at 91.44 53.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3195,7 +3300,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 90.678 54.61 90)
 			(hide yes)
 			(show_name no)
@@ -3235,6 +3340,12 @@
 			(uuid "4074b628-6b61-45bd-ad91-9d7e3351439d")
 		)
 		(instances
+			(project "24v_power_dist"
+				(path "/351ec213-5341-4e8b-9f3a-42e224a8f757/1b776c30-cef0-4fc2-9cc5-54e4a4bf6d00"
+					(reference "R8")
+					(unit 1)
+				)
+			)
 			(project "buck_boost_breakout"
 				(path "/e407faa9-50a3-4231-95da-82dc2233dbf2/1b776c30-cef0-4fc2-9cc5-54e4a4bf6d00"
 					(reference "R40")
@@ -3255,7 +3366,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c67f00b1-d5d3-4fdb-aba4-1a4e9cbcdf6a")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR016"
 			(at 80.01 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -3313,6 +3424,12 @@
 			(uuid "8d52af11-5ae3-423c-b31c-23a5b35759af")
 		)
 		(instances
+			(project "24v_power_dist"
+				(path "/351ec213-5341-4e8b-9f3a-42e224a8f757/1b776c30-cef0-4fc2-9cc5-54e4a4bf6d00"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
 			(project "buck_boost_breakout"
 				(path "/e407faa9-50a3-4231-95da-82dc2233dbf2/1b776c30-cef0-4fc2-9cc5-54e4a4bf6d00"
 					(reference "#PWR032")
@@ -3333,7 +3450,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c90e2404-710c-467c-a956-3567d4511d42")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR020"
 			(at 127 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -3391,6 +3508,12 @@
 			(uuid "723436fa-a29f-4bac-87c0-3323e41c7c97")
 		)
 		(instances
+			(project "24v_power_dist"
+				(path "/351ec213-5341-4e8b-9f3a-42e224a8f757/1b776c30-cef0-4fc2-9cc5-54e4a4bf6d00"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
 			(project "buck_boost_breakout"
 				(path "/e407faa9-50a3-4231-95da-82dc2233dbf2/1b776c30-cef0-4fc2-9cc5-54e4a4bf6d00"
 					(reference "#PWR02")
@@ -3411,7 +3534,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9f37131-833a-4df1-a75d-110934ff9408")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR019"
 			(at 99.06 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -3470,6 +3593,12 @@
 			(uuid "e168a5ca-b18f-4a55-917a-26a6b747c865")
 		)
 		(instances
+			(project "24v_power_dist"
+				(path "/351ec213-5341-4e8b-9f3a-42e224a8f757/1b776c30-cef0-4fc2-9cc5-54e4a4bf6d00"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
 			(project "buck_boost_breakout"
 				(path "/e407faa9-50a3-4231-95da-82dc2233dbf2/1b776c30-cef0-4fc2-9cc5-54e4a4bf6d00"
 					(reference "#PWR031")
@@ -3490,7 +3619,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9f9f8a6-0f8a-4a3a-900f-75450dbf0d17")
-		(property "Reference" "J2"
+		(property "Reference" "J3"
 			(at 74.93 55.8799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3552,6 +3681,12 @@
 			(uuid "f55dcd3b-6014-4e71-a989-2b07dcc072db")
 		)
 		(instances
+			(project "24v_power_dist"
+				(path "/351ec213-5341-4e8b-9f3a-42e224a8f757/1b776c30-cef0-4fc2-9cc5-54e4a4bf6d00"
+					(reference "J3")
+					(unit 1)
+				)
+			)
 			(project "buck_boost_breakout"
 				(path "/e407faa9-50a3-4231-95da-82dc2233dbf2/1b776c30-cef0-4fc2-9cc5-54e4a4bf6d00"
 					(reference "J2")
@@ -3572,7 +3707,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed422922-37ae-4eef-8ba0-00f235cfa7e6")
-		(property "Reference" "C1"
+		(property "Reference" "C4"
 			(at 156.2099 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3594,7 +3729,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 161.29 43.4848 0)
 			(hide yes)
 			(show_name no)
@@ -3634,6 +3769,12 @@
 			(uuid "8a31ba20-0ff9-4cc6-9f20-7959d976cc3a")
 		)
 		(instances
+			(project "24v_power_dist"
+				(path "/351ec213-5341-4e8b-9f3a-42e224a8f757/1b776c30-cef0-4fc2-9cc5-54e4a4bf6d00"
+					(reference "C4")
+					(unit 1)
+				)
+			)
 			(project "buck_boost_breakout"
 				(path "/e407faa9-50a3-4231-95da-82dc2233dbf2/1b776c30-cef0-4fc2-9cc5-54e4a4bf6d00"
 					(reference "C1")
@@ -3654,7 +3795,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "efcef6b9-8c25-46c6-adab-3cd395a43d36")
-		(property "Reference" "L3"
+		(property "Reference" "L1"
 			(at 162.56 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3664,7 +3805,7 @@
 				)
 			)
 		)
-		(property "Value" "27u"
+		(property "Value" "10u"
 			(at 162.56 57.15 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3714,6 +3855,12 @@
 			(uuid "6af3e086-3253-4c8b-b970-68e9fa2d588d")
 		)
 		(instances
+			(project "24v_power_dist"
+				(path "/351ec213-5341-4e8b-9f3a-42e224a8f757/1b776c30-cef0-4fc2-9cc5-54e4a4bf6d00"
+					(reference "L1")
+					(unit 1)
+				)
+			)
 			(project "buck_boost_breakout"
 				(path "/e407faa9-50a3-4231-95da-82dc2233dbf2/1b776c30-cef0-4fc2-9cc5-54e4a4bf6d00"
 					(reference "L3")
@@ -3734,7 +3881,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1fbb84c-ab61-4f13-9462-9af31586734f")
-		(property "Reference" "R39"
+		(property "Reference" "R14"
 			(at 198.12 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3745,7 +3892,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "24.9k"
 			(at 198.12 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3756,7 +3903,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 197.358 85.09 90)
 			(hide yes)
 			(show_name no)
@@ -3796,6 +3943,12 @@
 			(uuid "cff0108e-dd64-4a42-a2ca-969d4aa3acd0")
 		)
 		(instances
+			(project "24v_power_dist"
+				(path "/351ec213-5341-4e8b-9f3a-42e224a8f757/1b776c30-cef0-4fc2-9cc5-54e4a4bf6d00"
+					(reference "R14")
+					(unit 1)
+				)
+			)
 			(project "buck_boost_breakout"
 				(path "/e407faa9-50a3-4231-95da-82dc2233dbf2/1b776c30-cef0-4fc2-9cc5-54e4a4bf6d00"
 					(reference "R39")
@@ -3816,7 +3969,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f49bf8fc-132a-4a55-83a8-d7e59aafae5d")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR017"
 			(at 88.9 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -3874,6 +4027,12 @@
 			(uuid "676198de-9444-4a28-ad31-464d4e54e9bd")
 		)
 		(instances
+			(project "24v_power_dist"
+				(path "/351ec213-5341-4e8b-9f3a-42e224a8f757/1b776c30-cef0-4fc2-9cc5-54e4a4bf6d00"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
 			(project "buck_boost_breakout"
 				(path "/e407faa9-50a3-4231-95da-82dc2233dbf2/1b776c30-cef0-4fc2-9cc5-54e4a4bf6d00"
 					(reference "#PWR035")
@@ -3884,7 +4043,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 99.06 115.57 180)
+		(at 99.06 106.68 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3894,8 +4053,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7634ed1-f96c-4945-9edc-57cc2f0ff5a1")
-		(property "Reference" "R36"
-			(at 101.6 114.2999 0)
+		(property "Reference" "R11"
+			(at 101.6 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3905,8 +4064,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "430"
-			(at 101.6 116.8399 0)
+		(property "Value" "12k"
+			(at 101.6 107.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3916,8 +4075,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 100.838 115.57 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 100.838 106.68 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3928,7 +4087,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 115.57 0)
+			(at 99.06 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3939,7 +4098,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 99.06 115.57 0)
+			(at 99.06 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3956,89 +4115,15 @@
 			(uuid "3d59d0e9-ee0b-460d-8a56-e25a7eacdfa9")
 		)
 		(instances
-			(project "buck_boost_breakout"
-				(path "/e407faa9-50a3-4231-95da-82dc2233dbf2/1b776c30-cef0-4fc2-9cc5-54e4a4bf6d00"
-					(reference "R36")
+			(project "24v_power_dist"
+				(path "/351ec213-5341-4e8b-9f3a-42e224a8f757/1b776c30-cef0-4fc2-9cc5-54e4a4bf6d00"
+					(reference "R11")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 88.9 95.25 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fa6a94c8-18b2-470e-a155-cc3fe3c3f564")
-		(property "Reference" "R34"
-			(at 88.9 88.9 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 88.9 91.44 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 97.028 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 88.9 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "86c55608-eae3-428d-a864-83de4553295c")
-		)
-		(pin "1"
-			(uuid "23dfcb5d-7b5c-4156-b696-fa75e59b1484")
-		)
-		(instances
 			(project "buck_boost_breakout"
 				(path "/e407faa9-50a3-4231-95da-82dc2233dbf2/1b776c30-cef0-4fc2-9cc5-54e4a4bf6d00"
-					(reference "R34")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -4056,7 +4141,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ffc4df91-4d87-4e66-8588-a9d3f9a455a5")
-		(property "Reference" "C2"
+		(property "Reference" "C3"
 			(at 90.17 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4078,7 +4163,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 87.3252 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -4118,6 +4203,12 @@
 			(uuid "d8bb74ba-bada-420d-aa94-98882369d661")
 		)
 		(instances
+			(project "24v_power_dist"
+				(path "/351ec213-5341-4e8b-9f3a-42e224a8f757/1b776c30-cef0-4fc2-9cc5-54e4a4bf6d00"
+					(reference "C3")
+					(unit 1)
+				)
+			)
 			(project "buck_boost_breakout"
 				(path "/e407faa9-50a3-4231-95da-82dc2233dbf2/1b776c30-cef0-4fc2-9cc5-54e4a4bf6d00"
 					(reference "C2")
