@@ -2963,16 +2963,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.2062 182.9562) (xy 151.2062 151.2062)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e038d6c-a1ca-411f-ae90-86a74f6ce3f6")
-	)
-	(wire
-		(pts
 			(xy 245.11 53.34) (xy 256.54 53.34)
 		)
 		(stroke
@@ -2990,6 +2980,16 @@
 			(type default)
 		)
 		(uuid "111b5f8b-4425-4a2b-909a-b5cb39a60da4")
+	)
+	(wire
+		(pts
+			(xy 190.5 101.6) (xy 190.5 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "131d60c8-7057-4a8d-b1ed-e11e596e4e18")
 	)
 	(wire
 		(pts
@@ -3363,6 +3363,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 101.6) (xy 66.04 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ab4ff2d-77e3-4387-a369-79fd7d09b27a")
+	)
+	(wire
+		(pts
 			(xy 228.6 115.57) (xy 228.6 125.73)
 		)
 		(stroke
@@ -3723,7 +3733,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 104.14) (xy 190.5 115.57)
+			(xy 190.5 83.82) (xy 190.5 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3953,16 +3963,6 @@
 	)
 	(wire
 		(pts
-			(xy 202.0062 182.9562) (xy 151.2062 182.9562)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d3b6527-d786-438d-a3e3-64d24c7b56a5")
-	)
-	(wire
-		(pts
 			(xy 232.41 40.64) (xy 232.41 43.18)
 		)
 		(stroke
@@ -4003,7 +4003,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 106.68) (xy 66.04 115.57)
+			(xy 66.04 85.09) (xy 66.04 93.98)
 		)
 		(stroke
 			(width 0)
@@ -4060,16 +4060,6 @@
 			(type default)
 		)
 		(uuid "9e71774d-3060-4793-8a07-4d55e3621b43")
-	)
-	(wire
-		(pts
-			(xy 237.5662 215.9762) (xy 184.2262 215.9762)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a141059b-d304-4f8a-a52c-182f92ff910e")
 	)
 	(wire
 		(pts
@@ -4130,16 +4120,6 @@
 			(type default)
 		)
 		(uuid "a4634ef1-db4c-443d-8fa1-8a5457b45fe5")
-	)
-	(wire
-		(pts
-			(xy 202.0062 171.5262) (xy 202.0062 182.9562)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a481ad60-0d4b-4575-b416-cd8487a66a88")
 	)
 	(wire
 		(pts
@@ -4320,26 +4300,6 @@
 			(type default)
 		)
 		(uuid "b492f3a4-4873-4b88-be11-2c64c80a0044")
-	)
-	(wire
-		(pts
-			(xy 184.2262 215.9762) (xy 184.2262 184.2262)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b979a202-4369-4dd2-8fb8-c2cf3c19f795")
-	)
-	(wire
-		(pts
-			(xy 237.5662 200.7362) (xy 237.5662 215.9762)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb0f887b-c14a-43f2-b2d6-c2c408a8b9d6")
 	)
 	(wire
 		(pts
@@ -4952,7 +4912,7 @@
 		(uuid "13fed367-8aa6-4438-841e-e4059b430884")
 	)
 	(label "CSPIN"
-		(at 66.04 106.68 270)
+		(at 66.04 85.09 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5202,7 +5162,7 @@
 		(uuid "9785427d-f8ac-44cd-b5f0-c75aab2f2f21")
 	)
 	(label "CSPOUT"
-		(at 190.5 104.14 270)
+		(at 190.5 83.82 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5928,6 +5888,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 190.5 97.79 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "206d440e-4a64-41d8-8d30-e26c9024a781")
+		(property "Reference" "R79"
+			(at 193.04 96.5199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0"
+			(at 193.04 99.0599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 192.278 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 190.5 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "290dba14-a662-4568-b35a-7a784080f12d")
+		)
+		(pin "2"
+			(uuid "133f45cd-673b-49f5-8b44-e69b8765084c")
+		)
+		(instances
+			(project "24v_power_dist"
+				(path "/351ec213-5341-4e8b-9f3a-42e224a8f757/0680bbb8-fba3-4e16-8686-501db8d37be5"
+					(reference "R79")
+					(unit 1)
+				)
+				(path "/351ec213-5341-4e8b-9f3a-42e224a8f757/e58c1b29-143d-4dec-a2fb-5e98d5013989"
+					(reference "R80")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDPWR")
 		(at 187.96 31.75 0)
 		(unit 1)
@@ -6053,7 +6099,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 233.3752 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -6147,7 +6193,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "power_dist:LT8705HFEPBF"
 			(at 72.39 21.59 0)
 			(hide yes)
 			(show_name no)
@@ -6376,7 +6422,7 @@
 	(symbol
 		(lib_id "Device:R")
 		(at 125.73 144.78 0)
-		(mirror y)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6387,7 +6433,7 @@
 		(fields_autoplaced yes)
 		(uuid "258eb16b-40da-44f5-ab8a-5715f62befc2")
 		(property "Reference" "R25"
-			(at 128.27 143.5099 0)
+			(at 123.19 143.5099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6398,7 +6444,7 @@
 			)
 		)
 		(property "Value" "10"
-			(at 128.27 146.0499 0)
+			(at 123.19 146.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6409,7 +6455,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 127.508 144.78 90)
+			(at 123.952 144.78 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7017,6 +7063,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 66.04 97.79 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d997a21-7022-48d2-b2f0-832cc4864adf")
+		(property "Reference" "R77"
+			(at 68.58 96.5199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0"
+			(at 68.58 99.0599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 67.818 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 66.04 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "510f8b24-a0a4-4b6c-8965-4312d7ea79b1")
+		)
+		(pin "2"
+			(uuid "9b21a938-dd2d-4eb9-bf15-99782029a9f0")
+		)
+		(instances
+			(project "24v_power_dist"
+				(path "/351ec213-5341-4e8b-9f3a-42e224a8f757/0680bbb8-fba3-4e16-8686-501db8d37be5"
+					(reference "R77")
+					(unit 1)
+				)
+				(path "/351ec213-5341-4e8b-9f3a-42e224a8f757/e58c1b29-143d-4dec-a2fb-5e98d5013989"
+					(reference "R78")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 114.3 101.6 0)
 		(unit 1)
@@ -7432,7 +7564,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "power_dist:A786MW157M1JLAS011"
 			(at 219.71 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -7528,7 +7660,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "power_dist:ESY108M035AL4AA"
 			(at 194.31 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -7622,7 +7754,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 255.27 77.978 90)
 			(hide yes)
 			(show_name no)
@@ -7718,7 +7850,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 226.822 147.32 90)
 			(hide yes)
 			(show_name no)
@@ -8002,7 +8134,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 226.822 129.54 90)
 			(hide yes)
 			(show_name no)
@@ -8098,7 +8230,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 207.9752 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -8729,7 +8861,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "power_dist:A786MW157M1JLAS011"
 			(at 194.31 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -9395,7 +9527,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 148.082 144.78 90)
 			(hide yes)
 			(show_name no)
@@ -9865,7 +9997,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 135.382 64.77 90)
 			(hide yes)
 			(show_name no)
@@ -11603,7 +11735,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "power_dist:ESY108M035AL4AA"
 			(at 207.01 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -11696,7 +11828,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 52.3748 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -11883,7 +12015,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 255.27 67.818 90)
 			(hide yes)
 			(show_name no)

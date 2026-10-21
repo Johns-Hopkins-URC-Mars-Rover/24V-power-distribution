@@ -1056,18 +1056,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "a260ec20-e99f-49f5-965d-b9cb6ab7de9d")
+			(uuid "3de6c514-fd67-4da0-98c6-f69e9bfb532f")
 		)
 		(instances
 			(project "24v_power_dist"
 				(path "/351ec213-5341-4e8b-9f3a-42e224a8f757/9017cb77-fded-48bc-bce9-ed8cf450d7a7"
 					(reference "#PWR056")
-					(unit 1)
-				)
-			)
-			(project "buck_boost_breakout"
-				(path "/e407faa9-50a3-4231-95da-82dc2233dbf2/9017cb77-fded-48bc-bce9-ed8cf450d7a7"
-					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -1140,18 +1134,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "8a35c21a-ac20-46ea-99af-9f755203a805")
+			(uuid "a8caebed-ff34-4db5-b753-7ac1b0da65d8")
 		)
 		(instances
 			(project "24v_power_dist"
 				(path "/351ec213-5341-4e8b-9f3a-42e224a8f757/9017cb77-fded-48bc-bce9-ed8cf450d7a7"
 					(reference "#PWR057")
-					(unit 1)
-				)
-			)
-			(project "buck_boost_breakout"
-				(path "/e407faa9-50a3-4231-95da-82dc2233dbf2/9017cb77-fded-48bc-bce9-ed8cf450d7a7"
-					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -1297,21 +1285,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "22a5b38a-6e5c-4977-8381-2d31dc85b89d")
+			(uuid "dbca1c43-40f2-48b4-8fff-27470eeb07ca")
 		)
 		(pin "2"
-			(uuid "bf78291f-abf4-4f6c-ab11-5e6ca1327dee")
+			(uuid "714688b8-ce21-45d3-bf99-2e915074cf96")
 		)
 		(instances
 			(project "24v_power_dist"
 				(path "/351ec213-5341-4e8b-9f3a-42e224a8f757/9017cb77-fded-48bc-bce9-ed8cf450d7a7"
 					(reference "R64")
-					(unit 1)
-				)
-			)
-			(project "buck_boost_breakout"
-				(path "/e407faa9-50a3-4231-95da-82dc2233dbf2/9017cb77-fded-48bc-bce9-ed8cf450d7a7"
-					(reference "R57")
 					(unit 1)
 				)
 			)
@@ -1385,18 +1367,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "df2bc92b-28b7-4a15-9296-fc74e335870f")
+			(uuid "e1c92f57-8418-4275-92fc-58ea20cc4e08")
 		)
 		(instances
 			(project "24v_power_dist"
 				(path "/351ec213-5341-4e8b-9f3a-42e224a8f757/9017cb77-fded-48bc-bce9-ed8cf450d7a7"
 					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-			(project "buck_boost_breakout"
-				(path "/e407faa9-50a3-4231-95da-82dc2233dbf2/9017cb77-fded-48bc-bce9-ed8cf450d7a7"
-					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -1470,21 +1446,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "6e61e5b6-d6c6-4b7e-ab9a-6395befe4216")
+			(uuid "a95d6e58-49c6-4de0-b229-e49c89f4e5f9")
 		)
 		(pin "2"
-			(uuid "289af8e0-a204-42d7-90e7-8a5447e53334")
+			(uuid "6266712f-6853-4fb8-b653-aa78b7cb378a")
 		)
 		(instances
 			(project "24v_power_dist"
 				(path "/351ec213-5341-4e8b-9f3a-42e224a8f757/9017cb77-fded-48bc-bce9-ed8cf450d7a7"
 					(reference "C73")
-					(unit 1)
-				)
-			)
-			(project "buck_boost_breakout"
-				(path "/e407faa9-50a3-4231-95da-82dc2233dbf2/9017cb77-fded-48bc-bce9-ed8cf450d7a7"
-					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -1618,38 +1588,32 @@
 			)
 		)
 		(pin "4"
-			(uuid "4ec55eac-ad6b-4898-8db7-bfe92cfd5ce6")
+			(uuid "f41b8df4-5afa-4149-83ce-f4c472d58cf5")
 		)
 		(pin "1"
-			(uuid "2ddb7a86-9646-4f5d-a5de-dc6731321109")
+			(uuid "85355190-ed73-4064-b44e-d4f52afcbedd")
 		)
 		(pin "3"
-			(uuid "9a7292b7-49a6-44b5-86d1-5e02c9ded75d")
+			(uuid "dcc4c6ec-1f0a-436f-a32f-afd4a0dad34e")
 		)
 		(pin "7"
-			(uuid "41d184a9-2723-4c30-bc31-3a13371524b6")
+			(uuid "a295774c-da3e-4d99-ba4c-0935e7247826")
 		)
 		(pin "2"
-			(uuid "65d24e77-b69d-4278-a250-0a485a243f66")
+			(uuid "61341243-6f40-46b6-ae7e-ffc9aac1bee8")
 		)
 		(pin "5"
-			(uuid "b3facbd0-4d44-4d6f-ae51-3f717c64a54f")
+			(uuid "e42c61f6-8b20-47b1-8a45-f96b61fd627b")
 		)
 		(pin "8"
-			(uuid "4a7d7a83-f84d-4a54-9066-1b0ba562ba30")
+			(uuid "33e2a6f6-87e3-4507-bfc9-0b3a7b9888eb")
 		)
 		(pin "6"
-			(uuid "a5857b3f-8c62-4ff0-9c64-1dfb9cc4de41")
+			(uuid "ae075285-492e-4b72-b362-f0dbb680ecde")
 		)
 		(instances
 			(project "24v_power_dist"
 				(path "/351ec213-5341-4e8b-9f3a-42e224a8f757/9017cb77-fded-48bc-bce9-ed8cf450d7a7"
-					(reference "IC5")
-					(unit 1)
-				)
-			)
-			(project "buck_boost_breakout"
-				(path "/e407faa9-50a3-4231-95da-82dc2233dbf2/9017cb77-fded-48bc-bce9-ed8cf450d7a7"
 					(reference "IC5")
 					(unit 1)
 				)

@@ -665,7 +665,7 @@
         "uuid": "351ec213-5341-4e8b-9f3a-42e224a8f757"
       }
     ],
-    "used_designators": "U1,Q1-10,R1-76,LED1,L1-4,J1-9,IC1-10,D1-6,C1-79,#PWR1-66",
+    "used_designators": "H1-4,U1-3,Q1-13,R1-84,LED1,L1-4,J1-21,IC1-11,D1-6,C1-82,#PWR1-78",
     "variants": []
   },
   "sheets": [
@@ -712,6 +712,18 @@
     [
       "4009a9ef-11e7-4178-beaa-da09001b5719",
       "Temp Sense2"
+    ],
+    [
+      "bfafa829-ab96-4fab-ab6f-a32d82788f34",
+      "24V_Connectors"
+    ],
+    [
+      "55d0371f-4edc-4855-bd83-8c19df6a57fb",
+      "24V_Connectors1"
+    ],
+    [
+      "866ada50-72c5-4b46-868d-1aec9a6ca70b",
+      "Battery Input"
     ]
   ],
   "text_variables": {},

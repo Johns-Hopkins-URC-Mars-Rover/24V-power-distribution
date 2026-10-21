@@ -717,12 +717,6 @@
 		)
 	)
 	(junction
-		(at 166.37 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "384f7aa4-6da2-4e61-a176-bf11580fdbe1")
-	)
-	(junction
 		(at 128.27 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -762,16 +756,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 96.52) (xy 166.37 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2af30bcb-c6a6-4229-ad40-deb05696f68c")
-	)
-	(wire
-		(pts
 			(xy 127 104.14) (xy 128.27 104.14)
 		)
 		(stroke
@@ -799,16 +783,6 @@
 			(type default)
 		)
 		(uuid "410c650d-04fb-48a3-8ec8-979ac12bea37")
-	)
-	(wire
-		(pts
-			(xy 157.48 96.52) (xy 166.37 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59e4d785-2c18-48f0-aa1b-37bdf1b9c76a")
 	)
 	(wire
 		(pts
@@ -842,7 +816,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 96.52) (xy 173.99 96.52)
+			(xy 157.48 96.52) (xy 173.99 96.52)
 		)
 		(stroke
 			(width 0)
@@ -899,16 +873,6 @@
 			(type default)
 		)
 		(uuid "d28b3d12-7c79-4f04-b715-a2ea1e89960f")
-	)
-	(wire
-		(pts
-			(xy 166.37 83.82) (xy 114.3 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d813d4c4-b991-410b-b2b7-d717ed568882")
 	)
 	(wire
 		(pts
@@ -984,6 +948,17 @@
 		)
 		(uuid "7d9582b2-e0f5-46d1-ad2e-b3f7b02437b6")
 	)
+	(hierarchical_label "3v3_IN"
+		(shape input)
+		(at 114.3 83.82 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7e09e13f-efef-41f5-8f77-eb57d3476f04")
+	)
 	(hierarchical_label "A2"
 		(shape output)
 		(at 162.56 104.14 0)
@@ -1051,7 +1026,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 174.9552 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -1141,7 +1116,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 112.522 92.71 90)
 			(hide yes)
 			(show_name no)
